@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People & Places | S.M. Selim & Associates</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <h1>S.M. SELIM</h1>
+                <h1>&nbsp;&&nbsp;ASSOCIATES</h1>
+                <h2>S.M. Selim & Associates</h2>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#client-portal">Client Portal</a></li>
+                    <li><a href="people-places.html" class="active">People & Places</a></li>
+                    <li><a href="expertise.html">Expertise</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                    <li><a href="#briefings">Briefings</a></li>
+                    <li><a href="#innovation">Innovation</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#search"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </nav>
+            <div class="toolkit-login">
+                <a href="#toolkit-login">TOOLKITS & CLIENT LOG-IN</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="people-places-hero">
+        <div class="hero-content">
+            <h1>People & Places</h1>
+            <p>Our team of experienced legal professionals serving clients across Bangladesh</p>
+        </div>
+    </section>
+
+    <section class="locations">
+        <h2>Browse our locations</h2>
+        <div class="location-grid">
+            <div class="location-item">
+                <img src="/api/placeholder/200/150" alt="Dhaka map">
+                <h3>Dhaka</h3>
+            </div>
+            <div class="location-item">
+                <img src="/api/placeholder/200/150" alt="Chittagong map">
+                <h3>Chittagong</h3>
+            </div>
+        </div>
+
+        <div class="location-details">
+            <div class="location-card active" id="dhaka-location">
+                <h3>Our chambers in Dhaka</h3>
+                <ul>
+                    <li><strong>Chamber 1:</strong> High Court</li>
+                    <li><strong>Chamber 2:</strong> Segunbagicha</li>
+                    <li><strong>Chamber 3:</strong> Mohammadpur</li>
+                    <li><strong>Chamber 4:</strong> Judge Court</li>
+                </ul>
+                <p><strong>Phone:</strong> 01741134683</p>
+            </div>
+            <div class="location-card" id="chittagong-location">
+                <h3>Our chambers in Chittagong</h3>
+                <ul>
+                    <li><strong>Chamber:</strong> Chit</li>
+                </ul>
+                <p><strong>Phone:</strong> 01741134683</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="people">
+        <h2>Our Legal Team</h2>
+        
+        <div class="people-filter">
+            <div class="filter-types">
+                <span class="filter-type active">Partners (2)</span>
+                <span class="filter-type">Senior Lawyers (5)</span>
+                <span class="filter-type">Associates (8)</span>
+            </div>
+            
+            <div class="search-person">
+                <h3>Find a person</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="sectors">Sectors</label>
+                        <select id="sectors">
+                            <option value="all">All</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="search-btn">Search</button>
+                </form>
+            </div>
+        </div>
+        
+        <div id="people-list">
+            <div class="person-card">
+                <img src="/api/placeholder/80/80" alt="Adv. X" class="person-image">
+                <div class="person-info">
+                    <h3>Adv. X</h3>
+                    <p>Criminal Specialist</p>
+                    <p>Phone: 123</p>
+                    <a href="#profile" class="profile-link">See full profile</a>
+                </div>
+            </div>
+            
+            <div class="person-card">
+                <img src="/api/placeholder/80/80" alt="Adv. Y" class="person-image">
+                <div class="person-info">
+                    <h3>Adv. Y</h3>
+                    <p>Civil Specialist</p>
+                    <p>Phone: 456</p>
+                    <a href="#profile" class="profile-link">See full profile</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pagination">
+            <span class="page active">1</span>
+            <span class="page">2</span>
+            <span class="page">Next</span>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>News</h2>
+        <div class="news-container">
+            <article class="news-item">
+                <h3>S.M. Selim & Associates Advises Major Corporation on Environmental Compliance</h3>
+                <p>Our firm has successfully advised a major corporation on environmental compliance matters, helping them implement sustainable practices while meeting regulatory requirements in Bangladesh.</p>
+            </article>
+            <article class="news-item">
+                <h3>S.M. Selim & Associates reports record growth in client services</h3>
+                <p>S.M. Selim & Associates announced record performance for the year, delivering exceptional client service across multiple practice areas with significant growth in both corporate and litigation matters.</p>
+            </article>
+            <article class="news-item">
+                <h3>S.M. Selim & Associates strengthens its Dhaka Practice with new senior associates</h3>
+                <p>The firm welcomes experienced legal professionals who bring wealth of experience in cross-border transactions and complex litigation, with particular focus on commercial matters.</p>
+            </article>
+            <article class="news-item">
+                <h3>S.M. Selim & Associates is representing clients in landmark constitutional case</h3>
+                <p>Our team is handling this significant matter with an international dimension, involving constitutional principles and setting important precedents for future cases in Bangladesh.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 S.M. Selim & Associates</p>
+            </div>
+            <div class="footer-links">
+                <a href="#sitemap">Sitemap</a>
+                <a href="#accessibility">Accessibility</a>
+                <a href="#alumni">Alumni Network</a>
+                <a href="#attorney-advertising">Attorney advertising</a>
+                <a href="#complaints">Complaints</a>
+                <a href="#contact">Contact us</a>
+                <a href="#legal">Legal Statements</a>
+                <a href="#modern-slavery">Modern Slavery Act</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#subscribe">Subscribe</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // For demonstration purposes
+        document.addEventListener('DOMContentLoaded', function() {
+            // Location tabs
+            const locationItems = document.querySelectorAll('.location-item');
+            const locationCards = document.querySelectorAll('.location-card');
+            
+            locationItems.forEach((item, index) => {
+                item.addEventListener('click', function() {
+                    locationCards.forEach(card => card.classList.remove('active'));
+                    locationCards[index].classList.add('active');
+                });
+            });
+            
+            // Filter tabs
+            const filterTypes = document.querySelectorAll('.filter-type');
+            
+            filterTypes.forEach(type => {
+                type.addEventListener('click', function() {
+                    filterTypes.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
